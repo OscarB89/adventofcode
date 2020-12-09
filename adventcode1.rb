@@ -199,8 +199,8 @@ arr = [1753,
 1117,
 776]
 
-arr.combination(2) do |a, b|
-  if a + b == 2020
-    puts a * b
+arr.combination(3) do |a, b, c|
+  if a + b + c == 2020
+    puts a * b * c
   end
 end
